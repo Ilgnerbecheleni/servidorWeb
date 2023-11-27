@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Web</title>
+    <style>
+        * {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            background: rgba(4, 77, 22, 0.997);
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            width: 300px;
+            justify-content: space-around;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: 3px;
+            color: white;
+        }
+
+        img {
+            max-width: 80px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background: rgba(4, 77, 22, 0.997);
+            color: white;
+            text-align: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding:  10px;
+        }
+
+        footer h3 {
+            margin-bottom: 10px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer li {
+            margin: 0 10px;
+        }
+
+        main section {
+            margin-bottom: 20px;
+        }
+
+        main ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        main li {
+            margin-bottom: 8px;
+        }
+
+        .link{
+            padding: 8px;
+            background-color: rgba(4, 77, 22, 0.997);
+            color:white;
+            margin: 10px;
+            margin-top: 50px;
+            border-radius: 8px;
+        }
+        .info{
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#footer">Contato</a></li>
+        </ul>
+        <img src="/ifnmg.png" alt="ifnmg">
+    </header>
+
+    <main>
+    
+
+      <div class="info">
+        <h1>Tutorial Servidor Web</h1>
+        <a href="https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-pt" class="link">Saiba Mais</a>
+      </div>
+    </main>
+
+    <footer>
+        <h3>Grupo</h3>
+        <ul>
+            <li>Ilgner</li>
+            <li>Matheus</li>
+            <li>Luciano</li>
+            <li>Wendley</li>
+            <li>Thiago</li>
+        </ul>
+    </footer>
+</body>
+</html>
